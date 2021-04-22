@@ -27,6 +27,7 @@ Updated and maintained by Deusty LLC and the Apple development community.
   s.source_files = 'Source/GCD/*.{h,m}'
 
   s.requires_arc = true
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
